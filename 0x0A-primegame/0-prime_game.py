@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""Prime Game
+"""
+
+
 def isWinner(x, nums):
     """Returns the winner of a prime game"""
     if x < 1 or not nums:
