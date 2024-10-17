@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 def isWinner(x, nums):
+    """Returns the winner of a prime game"""
     if x < 1 or not nums:
         return None
 
@@ -15,6 +16,7 @@ def isWinner(x, nums):
     primes = [i for i, is_prime in enumerate(sieve) if is_prime]
 
     def count_prime_moves(n):
+        """Counting prime moves"""
         is_removed = [False] * (n + 1)
         move_count = 0
 
